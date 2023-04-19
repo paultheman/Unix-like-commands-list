@@ -9,3 +9,4 @@ A collection of counterpart commands for Linux and macOS.
 |Spotlight search|find / -iname|mdfind -name|
 |List hardware information|lshw|system_profiler|
 |Show local IPs|ip addr show|ifconfig \| grep inet|
+|Show external IP|curl ifconfig.me|curl ifconfig.me|
