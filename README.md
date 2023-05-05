@@ -12,3 +12,5 @@ A collection of counterpart commands for Linux and macOS.
 |Show local IPs|ip addr show|ifconfig \| grep inet|
 |Show external IP|curl ifconfig.me|curl ifconfig.me|
 |Open file or URL|xdg-open|open|
+|List Access Control List (ACL) for a folder/file|getfacl|ls -le|
+|Set ACL for a folder/file|setfacl|chmod +a|
